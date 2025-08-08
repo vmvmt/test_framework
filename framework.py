@@ -58,8 +58,8 @@ class TypeCheckStrategy:
 
         if required_type_str is None:
             result["result"] = False
-            result["errormessage"] = "Missing 'required_type' in config"
-            result["suggestion"] = "Add 'required_type' (e.g., 'int', 'str') to config"
+            result["errormessage"] = "Missing 'expected_type' in config"
+            result["suggestion"] = "Add 'expected_type' (e.g., 'int', 'str') to config"
             return result
 
         # Map string to actual Python type
@@ -74,7 +74,7 @@ class TypeCheckStrategy:
 
         if expected_type is None:
             result["result"] = False
-            result["errormessage"] = f"Unsupported required_type: '{required_type_str}'"
+            result["errormessage"] = f"Unsupported expected_type: '{required_type_str}'"
             result["suggestion"] = f"Use one of: {', '.join(str_to_type.keys())}"
             return result
 
