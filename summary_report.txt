@@ -1,0 +1,92 @@
+✅ Test '001' passed.
+❌ Test '002' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Exception occurred: unsupported operand type(s) for *: 'NoneType' and 'Quantity'
+     Suggest : Ensure valid value/unit/expected_unit fields
+❌ Test '003' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Converted value 0.22679618500000004 kg is less than minimum 10 kg
+     Suggest : Provide a higher value or adjust minimum
+❌ Test '004' failed:
+   - Strategy: Required_Field
+     Error   : 'data' is null and 'allow_null' is not set in config
+     Suggest : Set 'allow_null': true in config or provide a non-null 'data'
+✅ Test '005' passed.
+❌ Test '006' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '007' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+✅ Test '008' passed.
+✅ Test '009' passed.
+✅ Test '010' passed.
+❌ Test '011' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '012' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Exception occurred: Cannot convert from 'dimensionless' (dimensionless) to 'kilogram' ([mass])
+     Suggest : Ensure valid value/unit/expected_unit fields
+❌ Test '013' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+✅ Test '014' passed.
+❌ Test '015' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Exception occurred: unsupported operand type(s) for *: 'NoneType' and 'Quantity'
+     Suggest : Ensure valid value/unit/expected_unit fields
+❌ Test '016' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+✅ Test '017' passed.
+❌ Test '018' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '019' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '020' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Converted value 0.5 kg is less than minimum 50 kg
+     Suggest : Provide a higher value or adjust minimum
+❌ Test '021' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '022' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '023' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Converted value 0.1 kg is less than minimum 100 kg
+     Suggest : Provide a higher value or adjust minimum
+✅ Test '024' passed.
+❌ Test '025' failed:
+   - Strategy: Required_Field
+     Error   : 'data' is null and 'allow_null' is not set in config
+     Suggest : Set 'allow_null': true in config or provide a non-null 'data'
+✅ Test '026' passed.
+✅ Test '027' passed.
+❌ Test '028' failed:
+   - Strategy: TypeCheck
+     Error   : Missing 'required_type' in config
+     Suggest : Add 'required_type' (e.g., 'int', 'str') to config
+❌ Test '029' failed:
+   - Strategy: UnitConversionStrategy
+     Error   : Converted value 0.005 kg is less than minimum 100 kg
+     Suggest : Provide a higher value or adjust minimum
+✅ Test '030' passed.
+
+Summary:
+Total tests     : 30
+Passed        : 11
+Failed        : 19

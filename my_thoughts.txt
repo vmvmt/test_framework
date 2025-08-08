@@ -1,0 +1,18 @@
+    Design:
+    My first idea was using a Strategy pattern for implementing constraint checks(Such as whether the object is well-formed), and type-based checks(such as unit_conversion).
+    I would chain these Strategies tied to test cases with the Strategy Factory pattern.
+    - So my Framework class would read in test cases using JsonDecoder
+    - Perform checks on these test cases, which are chained based, using Composites (Obviously they could throw exceptions if they fail, contain error messages (performance?))
+    - And append the results of the checks based on Composition of Strategies, and make a summary as an output
+
+    The question is:
+    - Do JSON array objects contain the id, type, data, config fields always? (They must contain id, type, data, config optional)
+    - Is the JSON file streamed? Async? (I chose synchronous execution, according to my time frame)
+    - Should I do unit_tests?
+
+
+I managed to do unit_conversion with pint.
+I successfully created what I thought, I has no issues with it whatsoever. TypeCheckStrategy caused some headaches, but otherwise I am proud of the result.
+
+
+

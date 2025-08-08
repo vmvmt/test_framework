@@ -1,0 +1,278 @@
+[
+  {
+    "case_id": "001",
+    "type": "unit_conversion",
+    "data": {
+      "value": 0.5,
+      "unit": "lb"
+    },
+    "config": {
+      "expected_unit": "g",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "002",
+    "type": "unit_conversion",
+    "data": {
+      "value": null,
+      "unit": "g"
+    },
+    "config": {
+      "expected_unit": "lb",
+      "min": 10
+    }
+  },
+  {
+    "case_id": "003",
+    "type": "unit_conversion",
+    "data": {
+      "value": 0.5,
+      "unit": "lb"
+    },
+    "config": {
+      "expected_unit": "kg",
+      "min": 10
+    }
+  },
+  {
+    "case_id": "004",
+    "type": "required_field",
+    "data": null,
+    "config": {
+      "allow_null": false
+    }
+  },
+  {
+    "case_id": "005",
+    "type": "unit_conversion",
+    "data": {
+      "value": 100,
+      "unit": "kg"
+    },
+    "config": {
+      "expected_unit": "lb",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "006",
+    "type": "type_check",
+    "data": 42,
+    "config": {
+      "expected_type": "int"
+    }
+  },
+  {
+    "case_id": "007",
+    "type": "type_check",
+    "data": null,
+    "config": {
+      "expected_type": "str"
+    }
+  },
+  {
+    "case_id": "008",
+    "type": "required_field",
+    "data": 0,
+    "config": {
+      "allow_null": true
+    }
+  },
+  {
+    "case_id": "009",
+    "type": "unit_conversion",
+    "data": {
+      "value": 100,
+      "unit": "lb"
+    },
+    "config": {
+      "expected_unit": "lb",
+      "min": 50
+    }
+  },
+  {
+    "case_id": "010",
+    "type": "unit_conversion",
+    "data": {
+      "value": 5,
+      "unit": "lb"
+    },
+    "config": {
+      "expected_unit": "g",
+      "min": 50
+    }
+  },
+  {
+    "case_id": "011",
+    "type": "type_check",
+    "data": null,
+    "config": {
+      "expected_type": "float"
+    }
+  },
+  {
+    "case_id": "012",
+    "type": "unit_conversion",
+    "data": {
+      "value": 0.5,
+      "unit": null
+    },
+    "config": {
+      "expected_unit": "kg",
+      "min": 50
+    }
+  },
+  {
+    "case_id": "013",
+    "type": "type_check",
+    "data": null,
+    "config": {
+      "expected_type": "float"
+    }
+  },
+  {
+    "case_id": "014",
+    "type": "required_field",
+    "data": ""
+  },
+  {
+    "case_id": "015",
+    "type": "unit_conversion",
+    "data": {
+      "value": null,
+      "unit": null
+    },
+    "config": {
+      "expected_unit": "g",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "016",
+    "type": "type_check",
+    "data": null,
+    "config": {
+      "expected_type": "str"
+    }
+  },
+  {
+    "case_id": "017",
+    "type": "required_field",
+    "data": 0,
+    "config": {
+      "allow_null": true
+    }
+  },
+  {
+    "case_id": "018",
+    "type": "type_check",
+    "data": 42,
+    "config": {
+      "expected_type": "int"
+    }
+  },
+  {
+    "case_id": "019",
+    "type": "type_check",
+    "data": "42",
+    "config": {
+      "expected_type": "int"
+    }
+  },
+  {
+    "case_id": "020",
+    "type": "unit_conversion",
+    "data": {
+      "value": 0.5,
+      "unit": "kg"
+    },
+    "config": {
+      "expected_unit": "kg",
+      "min": 50
+    }
+  },
+  {
+    "case_id": "021",
+    "type": "type_check",
+    "data": 3.14,
+    "config": {
+      "expected_type": "str"
+    }
+  },
+  {
+    "case_id": "022",
+    "type": "type_check",
+    "data": "42",
+    "config": {
+      "expected_type": "int"
+    }
+  },
+  {
+    "case_id": "023",
+    "type": "unit_conversion",
+    "data": {
+      "value": 100,
+      "unit": "g"
+    },
+    "config": {
+      "expected_unit": "kg",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "024",
+    "type": "required_field",
+    "data": "some value",
+    "config": {
+      "allow_null": false
+    }
+  },
+  {
+    "case_id": "025",
+    "type": "required_field",
+    "data": null
+  },
+  {
+    "case_id": "026",
+    "type": "unit_conversion",
+    "data": {
+      "value": 100,
+      "unit": "kg"
+    },
+    "config": {
+      "expected_unit": "lb",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "027",
+    "type": "required_field",
+    "data": "some value"
+  },
+  {
+    "case_id": "028",
+    "type": "type_check",
+    "data": "42",
+    "config": {
+      "expected_type": "float"
+    }
+  },
+  {
+    "case_id": "029",
+    "type": "unit_conversion",
+    "data": {
+      "value": 5,
+      "unit": "g"
+    },
+    "config": {
+      "expected_unit": "kg",
+      "min": 100
+    }
+  },
+  {
+    "case_id": "030",
+    "type": "required_field",
+    "data": "some value"
+  }
+]
